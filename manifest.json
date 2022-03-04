@@ -1,0 +1,16 @@
+{
+  "action": {},
+  "author": "Ken Stanley <dohpaz@gmail.com>",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Customize the favicon for Gmail tabs.",
+  "manifest_version": 3,
+  "name": "GMail Favicon",
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": ["https://mail.google.com/"],
+  "version": "1.0"
+}
